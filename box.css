@@ -1,0 +1,76 @@
+	@font-face{ 
+		
+			font-family:"this can be anything";
+			src: url("font/karla-regular-webfont.woff") format('woff'),
+			url("fonts/karla-regular-webfont.woff2") format('woff2')
+		
+		}
+		
+		@font-face{
+			font-family:"example two";
+			src:url("font/rubik-regular-webfont.woff") format("woff"),
+			url("fonts/rubik-regular-webfont.woff2") format("woff2")
+		}
+		
+		
+		
+		.topic{
+				font-family: "this can be anything";
+			}
+		li{
+			font-family: 'Rakkas', cursive;
+			text-transform:capitalize;
+		}
+		a{
+			font-family:"example two";
+			color:red;
+			text-decoration:none;
+		}
+		#box{
+			height:100px;
+			width:100px;
+			/*border:2px solid red;*/
+				
+		/*border:2px solid red; represents border-width, border-style and border height with the most important being border-style*/
+		/*border styles include double, dashed, solid, dotted and none*/
+		/*border-width can take thin, thich, medium or number*/
+			border-right-width:12px;
+			border-right-style:double;
+			border-right-color:red;
+			
+			/*or can just be written as border-right: 12px double red*/
+			
+			
+			/*for border radius, to specify different ones you just have to list out the percentage like the example below*/
+			/*for margin, we have border-right, border-left, border-top and bottom*/
+			border-radius:50% 40% 30% 20%
+		}
+		#me{
+			border: 10px solid grey;
+			width:100px;
+			height:100px;
+			background-color:red;
+			border-radius:50%;
+			margin:60px;
+			
+		}
+		
+		#us{
+			border: 10px solid grey;
+			width:100px;
+			height:100px;
+			background-color:green;
+			border-radius:50%;
+			margin:60px;
+
+		}
+		
+		#you{
+			border: 10px solid grey;
+			width:100px;
+			height:100px;
+			background-color:yellow;
+			border-radius:50%;
+			margin-top:60px;
+			margin-right:20px;
+		}

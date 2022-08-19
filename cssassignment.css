@@ -1,0 +1,74 @@
+body{
+				background-image: url("images/banner.jpg");
+				background-attachment: fixed;
+				background-repeat:no-repeat;
+				background-size:contain;
+			}
+			div{
+				
+				color:#faf8f5;
+			}
+			#first{
+				height:100px;
+				display:flex;
+				justify-content: space-around;
+			}
+			#second{
+				height:400px;
+				display:flex;
+				justify-content: space-around;
+
+			}
+			.1{
+			margin-top:10px;
+			font-size:22px;
+			font-family:georgia,sans serif;
+			}
+			img{
+				height:15px;
+				weight:10px;
+				margin-right:3px;
+				
+			}
+			
+			
+			a{
+				color:white;
+				text-decoration:none;
+			}
+			#matrimony{
+			width:40%; 
+			height:230px;
+			margin-top:100px;
+			padding-left:20px;
+			}
+			
+			form{
+			background-color:white;
+			color:grey;
+			}
+			
+			input{
+			width:80%; 
+			height:30px;
+			font-size:22px
+			border:1px solid white;
+			color:grey;
+			text-align:left;
+			background-color:#f1f1f1;		
+			margin-top:20px;
+			margin-left:20px;
+
+			}
+			
+			#submit{
+				background-color:#ff4e82;
+			text-align:center;
+			}
+			
+			.small{
+			width:10px; 
+			height:5px;
+			background-color:white;
+			}
+			
